@@ -38,9 +38,9 @@ ss -tio
 
 ```
 ### BBRv3 Runtime Stats (ss -tio)
-![Socket Statistics](assets/Screenshot_20260528_135422.png)
-![Socket Statistics](assets/Screenshot_20260528_135446.png)
+![Socket Statistics](https://raw.githubusercontent.com/ZeroKelvinProject/Elea-4.19-android-bbr3/lineage-23.2/assets/Screenshot_20260528_135422.png)
 
+![Socket Statistics](https://raw.githubusercontent.com/ZeroKelvinProject/Elea-4.19-android-bbr3/lineage-23.2/assets/Screenshot_20260528_135446.png)
 
 *Note: Look for `bbr:(bw:..., pacing_gain:2.77344, cwnd_gain:2)` in the output.*
 
@@ -53,7 +53,7 @@ cat /proc/sys/net/ipv4/tcp_congestion_control
 
 ```
 ### Network Verification
-![Network Verification](assets/Screenshot_20260528_135542.png)
+![Network Verification](https://raw.githubusercontent.com/ZeroKelvinProject/Elea-4.19-android-bbr3/lineage-23.2/assets/Screenshot_20260528_135542.png)
 ## Requirements
 
 * Root access required for verifying kernel symbols and monitoring socket statistics.
